@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "outputDirectory": "build",
   "ignoreCommand": "git diff --quiet HEAD^ HEAD -- src/ package.json || exit 0",
   "env": {
     "VITE_BACKEND_URL": "@backend_url"
